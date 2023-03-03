@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    background-color: gray;
+    color: white;
+}
+
+#header{
+    background-color: black;
+    text-align: center; 
+    color: white; 
+    padding: 10px;
+    margin: 0;
+}
+
+#introdução{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.foto-principal{
+    width: 200px; 
+    height: 200px;
+}
+
+figure{
+    width: 200px; 
+    height: 200px;
+    display: inline-block;
+}
+
+main{
+    margin-left:18% ;
+    margin-top: 5%;
+}

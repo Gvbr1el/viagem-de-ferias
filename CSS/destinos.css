@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    background-color: gray;
+    color: white;
+}
+
+#header{
+    background-color: black;
+    text-align: center; 
+    color: white; 
+    padding: 10px;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    text-align: center;
+}
+
+.descricao{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.foto-secundarias{
+    width: 40%;
+    margin-left: 30%;
+}
+
+.link-final{
+    text-align: center;
+}

@@ -4,53 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
     <title>Viagens Sul-america</title>
 </head>
 <body>
-    <header style="background-color: black;">
-        <h1 style="text-align: center; color: white; margin: 0;">Viaje pela América do Sul</h1>
+    <header id="header">
+        <h1>Viaje pela América do Sul</h1>
     </header>
 
-    <p style="text-align: center;">Se você está programando fazer uma viagem pelo nosso lindo continente América do Sul, aqui vão algumas dicas de lugares que tenho certeza que você não irá se arrepender de visitar.</p>
+    <p id="introdução" >Se você está programando fazer uma viagem pelo nosso lindo continente América do Sul, aqui vão algumas dicas de lugares que tenho certeza que você não irá se arrepender de visitar.</p>
 
     <main>
-        <table style="margin: auto;">
-            <thead>
-                <tr>
-                    <th>
-                        <a href="./cataratas/cataratas.html" title="Ir para página">
-                            <img src="./cataratas/cataratas-do-iguacu-8.webp" alt="Cataratas do iguaçu" style="width: 200px; height: 200px;">
-                        </a>
-                    </th>
-                    <th>
-                        <a href="./cordilheira/cordilheira.html" title="Ir para página">
-                            <img src="./cordilheira/cordilheira-andes.webp" alt="Cordilheira dos Andes" style="width: 200px; height: 200px;">
-                        </a>
-                    </th>
-                    <th>
-                        <a href="./machupichu/machupichu.html" title="Ir para página">
-                            <img src="./machupichu/640px-Sunset_across_Machu_Picchu.jpg" alt="Machu Picchu" style="width: 200px; height: 200px;">
-                        </a>
-                    </th>
-                     
-                </tr>
-            </thead>    
-        
-            <tbody>
-                <tr>
-                    <td>
-                        Catarats do Iguaçu
-                    </td>
-                    <td>
-                       Cordilheira dos Andes
-                    </td>
-                    <td>
-                        Machu Picchu
-                    </td>              
-                </tr>
-            </tbody>
-    
-        </table>
+        <figure>
+            <a href="/cataratas/cataratas.html" title="Ir para página">
+                <img src="/cataratas/cataratas-do-iguacu-8.webp" alt="Cataratas do Iguaçu" class="foto-principal">
+            </a>
+            <figcaption>Cataratas do Iguaçu</figcaption>
+        </figure>
+
+        <figure>
+            <a href="/cordilheira/cordilheira.html" title="Ir para página">
+                <img src="/cordilheira/cordilheira-andes.webp" alt="Cordilheira dos Andes" class="foto-principal">
+            </a>
+            <figcaption>Cordilheira dos Andes</figcaption>
+        </figure>
+
+        <figure>
+            <a href="/machupichu/machupichu.html" title="Ir para página">
+                <img src="/machupichu/640px-Sunset_across_Machu_Picchu.jpg" alt="Machu Picchu" class="foto-principal">
+            </a>
+            <figcaption>Machu Picchu</figcaption>
+        </figure>
     </main>
 </body>
 </html>
